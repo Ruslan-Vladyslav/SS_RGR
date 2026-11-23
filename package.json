@@ -1,0 +1,25 @@
+{
+  "name": "tls-ssl-mesh-simulator",
+  "version": "1.0.0",
+  "description": "Simulation of TLS/SSL Handshake, Root CA, Distributed Mesh Topology, and Radio MTU Fragmentation (Security Lab 8)",
+  "main": "demo.js",
+  "scripts": {
+    "start": "node demo.js",
+    "demo": "node demo.js",
+    "interactive": "node interactive.js",
+    "test": "node test/test-all.js"
+  },
+  "keywords": [
+    "tls",
+    "ssl",
+    "handshake",
+    "x509",
+    "crypto",
+    "mesh-network",
+    "dijkstra",
+    "fragmentation",
+    "mtu"
+  ],
+  "author": "KPI Student",
+  "license": "MIT"
+}
